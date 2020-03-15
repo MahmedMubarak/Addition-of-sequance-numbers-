@@ -1,0 +1,18 @@
+//Libraries
+#include <stdio.h>
+#include <stdlib.h>
+//the main function
+int main()
+{
+    // Decleration the variables
+    unsigned int x = 10000 , sum = 0 , i = 0 ;
+    // for loop to print the numbers sequance that sum = 10000
+    while (sum <= x)
+    {
+        sum += i ;
+        //print the numbers
+        printf(" %d   ",i);
+        i++ ;
+    }
+    return 0;
+}
